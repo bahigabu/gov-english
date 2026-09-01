@@ -1,0 +1,25 @@
+// out: ./style.css
+@bgc:rgb(245,246,248);
+@nav:rgb(34,34,34);
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, "Noto Sans TC", sans-serif;
+  background-color: @bgc;
+  color: @nav;
+}
+@import "header.less";
+@import "main.less";
+@import "article-list.less";
+@import "article.less";
+@import "vocabulary.less";
+@import "vocabulary-hover.less";
+@import "word-color.less";
+@import "questions.less";
+@import "mobile.less";

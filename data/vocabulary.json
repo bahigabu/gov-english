@@ -1,0 +1,86 @@
+[
+  {
+    "id": "word_a7k3m9q2",
+    "word": "eat",
+    "forms": {
+      "base": "eat",
+      "thirdPerson": "eats",
+      "past": "ate",
+      "pastParticiple": "eaten",
+      "presentParticiple": "eating"
+    },
+    "category": "junior",
+    "similarMeaning": [],
+    "similarSpelling": []
+  },
+  {
+    "id": "word_f82kd91x",
+    "word": "go",
+    "forms": {
+      "base": "go",
+      "thirdPerson": "goes",
+      "past": "went",
+      "pastParticiple": "gone",
+      "presentParticiple": "going"
+    },
+    "category": "junior",
+    "similarMeaning": [],
+    "similarSpelling": []
+  },
+  {
+    "id": "word_p4mz7c8a",
+    "word": "important",
+    "forms": {
+      "base": "important"
+    },
+    "category": "high-basic",
+    "similarMeaning": [],
+    "similarSpelling": []
+  },
+  {
+    "id": "word_6tq9n2vb",
+    "word": "significant",
+    "forms": {
+      "base": "significant"
+    },
+    "category": "high-advanced",
+    "similarMeaning": [
+      "word_p4mz7c8a"
+    ],
+    "similarSpelling": []
+  },
+  {
+    "id": "word_k83mz2pa",
+    "word": "investment",
+    "forms": {
+      "base": "investment"
+    },
+    "category": "adult",
+    "similarMeaning": [],
+    "similarSpelling": []
+  },
+  {
+    "id": "word_else",
+    "word": "else",
+    "forms": {},
+    "category": "junior",
+    "similarMeaning": [],
+    "similarSpelling": []
+  },
+  {
+    "id": "word_be",
+    "word": "be",
+    "forms": {
+      "present_1st_person": "am",
+      "present_3rd_person": "is",
+      "present_plural": "are",
+      "past_1st_3rd_person": "was",
+      "past_plural": "were",
+      "past_participle": "been",
+      "present_participle": "being"
+    },
+    "category": "junior",
+    "similarMeaning": [],
+    "similarSpelling": []
+  }
+]

@@ -1,0 +1,89 @@
+[
+  {
+    "id": "article_a7k3m9q2",
+    "title": "110年學測第一篇",
+    "content": "Many people eat breakfast every morning. Yesterday, I ate breakfast before I went to school. It is important to have a healthy meal.",
+    "questions": [
+      {
+        "id": "question_a7k3m9q2",
+        "question": "What do many people do every morning?",
+        "options": [
+          "They eat breakfast.",
+          "They go to work.",
+          "They play games.",
+          "They read books."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "question_f82kd91x",
+        "question": "Why is breakfast important?",
+        "options": [
+          "Because it is expensive.",
+          "Because it is a healthy meal.",
+          "Because people dislike breakfast.",
+          "Because people go to school."
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": "article_f82kd91x",
+    "title": "110年國營事業考試第一篇",
+    "content": "Going to work every day requires good planning. People need to manage their time and make important decisions.",
+    "questions": [
+      {
+        "id": "question_p4mz7c8a",
+        "question": "What do people need to manage?",
+        "options": [
+          "Their time.",
+          "Their food.",
+          "Their cars.",
+          "Their houses."
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "article_83gsat01",
+    "title": "83年學測第一篇",
+    "content": "Most heroes are people like you.\n\nBut what makes them heroes?\n\nThey find special courage when they need it.\n\nThey are brave enough to help in an emergency while others may stand by.\n\nA hero sees what needs to be done and does it.\n\nSometimes heroes are rewarded for their brave acts.\n\nOne such reward is the Carnegie Medal.\n\nIt is given to people who act bravely and face danger to save the lives of others.\n\nThe medal was named after Andrew Carnegie.\n\nIn 1886, Carnegie heard about a young man by the name of William Hunter who lost his life trying to save two other boys from drowning.\n\nCarnegie became a very rich businessman and set aside money to honor heroes like William.\n\nSometimes these heroes are in need or are hurt.\n\nIf so, they receive money as well as the Carnegie Medal.\n\nOver 6,000 people have received the Carnegie Medal.\n\nSome have saved people from drowning or from burning buildings.\n\nOthers have pulled people in front of moving trains or saved them from attacks by wild animals.\n\nAll these heroes have one thing in common, however.\n\nThey put someone else's safety ahead of their own.",
+    "questions": [
+      {
+        "id": "question_83gsat01_01",
+        "question": "The Carnegie Medal is given to those who are",
+        "options": [
+          "sick and poor.",
+          "rich and famous.",
+          "young and brave.",
+          "unselfish and courageous."
+        ],
+        "answer": 4
+      },
+      {
+        "id": "question_83gsat01_02",
+        "question": "What is the main idea of the passage?",
+        "options": [
+          "William Hunter was a very brave boy.",
+          "Hunter saved Carnegie from drowning.",
+          "Some heroes have been rewarded for their bravery.",
+          "Carnegie was a rich businessman and liked to help people."
+        ],
+        "answer": 3
+      },
+      {
+        "id": "question_83gsat01_03",
+        "question": "Which of the following statements is NOT true?",
+        "options": [
+          "Carnegie knew Hunter in person.",
+          "Brave deeds can take many different forms.",
+          "Over 6,000 people are Carnegie Medal recipients.",
+          "Some heroes have received money as well as the Medal."
+        ],
+        "answer": 1
+      }
+    ]
+  }
+]

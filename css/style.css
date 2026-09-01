@@ -1,0 +1,239 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, "Noto Sans TC", sans-serif;
+  background-color: #f5f6f8;
+  color: #222222;
+}
+.site-header {
+  background-color: #222222;
+  color: white;
+}
+.header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-inner h1 {
+  margin: 0;
+  font-size: 24px;
+}
+nav {
+  display: flex;
+  gap: 8px;
+}
+nav button {
+  border: 0;
+  background: transparent;
+  color: white;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 15px;
+}
+nav button:hover {
+  background-color: #444;
+}
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 24px;
+}
+.page h2 {
+  margin-top: 0;
+}
+.article-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.article-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+.article-card h3 {
+  margin-top: 0;
+}
+.article-card button {
+  padding: 8px 14px;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #222;
+  color: white;
+}
+.article-content {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  line-height: 2;
+  font-size: 18px;
+}
+.article-content p {
+  margin: 0 0 1em;
+}
+.article-word {
+  padding: 2px 4px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.paragraph-number {
+  font-weight: bold;
+}
+#vocabulary-list {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 12px;
+}
+.word-card {
+  width: 100%;
+}
+.open-word {
+  width: 100%;
+  padding: 14px 10px;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.open-word {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  padding: 0;
+  border: 0;
+  border-radius: 8px;
+  color: #222;
+  cursor: pointer;
+  font-size: 16px;
+  overflow: hidden;
+}
+.word-text,
+.word-percentage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.word-percentage {
+  display: none;
+}
+.open-word:hover .word-text {
+  display: none;
+}
+.open-word:hover .word-percentage {
+  display: flex;
+}
+.word-junior {
+  background-color: #d9f7d9;
+}
+.word-high-basic {
+  background-color: #d9eaff;
+}
+.word-high-advanced {
+  background-color: #eadcff;
+}
+.word-adult {
+  background-color: #fff3b8;
+}
+.questions {
+  margin-top: 30px;
+}
+.question-card {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.question-card h4 {
+  margin-top: 0;
+  font-size: 24px;
+}
+.question-option {
+  margin: 16px 0;
+  padding: 14px 18px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+.question-option:hover {
+  background-color: #f5f5f5;
+  border-color: #999;
+  transform: translateY(-2px);
+}
+.question-option.selected {
+  background-color: #d9eaff;
+  border-color: #7ab8ff;
+}
+.question-option.correct {
+  background-color: #d9f7d9;
+  border-color: #4caf50;
+}
+.question-option.wrong {
+  background-color: #ffd9d9;
+  border-color: #f44336;
+}
+.question-actions {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+  justify-content: center;
+}
+.question-actions button {
+  padding: 14px 35px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #222;
+  color: white;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+.question-actions button:hover {
+  background-color: #444;
+  transform: translateY(-2px);
+}
+@media (max-width: 768px) {
+  .header-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  nav {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+  }
+  nav button {
+    width: 100%;
+  }
+  main {
+    padding: 20px 15px;
+  }
+  .article-list {
+    grid-template-columns: 1fr;
+  }
+  .article-content {
+    padding: 20px;
+    font-size: 16px;
+  }
+  #vocabulary-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>英文學習網站</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <h1>英文學習</h1>
+
+        <nav>
+          <button data-page="home">首頁</button>
+          <button data-page="vocabulary">單字庫</button>
+          <button data-page="articles">文章庫</button>
+          <button>功能三</button>
+          <button>功能四</button>
+          <button>功能五</button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- ==================== -->
+      <!-- 首頁 -->
+      <!-- ==================== -->
+
+      <section id="page-home" class="page">
+        <h2>英文學習網站</h2>
+
+        <p>單字庫與文章庫</p>
+      </section>
+
+      <!-- ==================== -->
+      <!-- 單字庫 -->
+      <!-- ==================== -->
+
+      <section id="page-vocabulary" class="page" hidden>
+        <h2>單字庫</h2>
+
+        <div id="vocabulary-list"></div>
+      </section>
+
+      <!-- ==================== -->
+      <!-- 單字詳細內容 -->
+      <!-- ==================== -->
+
+      <section id="page-word-detail" class="page" hidden>
+        <button id="back-to-vocabulary">← 返回單字庫</button>
+
+        <div id="word-detail"></div>
+      </section>
+
+      <!-- ==================== -->
+      <!-- 文章庫 -->
+      <!-- ==================== -->
+
+      <section id="page-articles" class="page" hidden>
+        <h2>文章庫</h2>
+
+        <div id="article-list"></div>
+      </section>
+
+      <!-- ==================== -->
+      <!-- 文章詳細內容 -->
+      <!-- ==================== -->
+
+      <section id="page-article-detail" class="page" hidden>
+        <button id="back-to-articles">← 返回文章庫</button>
+
+        <div id="article-detail"></div>
+      </section>
+    </main>
+
+    <script src="./js/const.js" defer></script>
+    <script src="./js/count.js" defer></script>
+    <script src="./js/infoSec.js" defer></script>
+    <script src="./js/vocabularys.js" defer></script>
+    <script src="./js/vocabulary.js" defer></script>
+    <script src="./js/articles.js" defer></script>
+    <script src="./js/article.js" defer></script>
+    <script src="./js/localStorage.js" defer></script>
+    <script src="./js/main.js" defer></script>
+  </body>
+</html>

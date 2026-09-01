@@ -1,0 +1,16 @@
+#vocabulary-list {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 12px;
+}
+.word-card {
+  width: 100%;
+}
+.open-word {
+  width: 100%;
+  padding: 14px 10px;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}

@@ -1,0 +1,31 @@
+.site-header {
+  background-color: #222222;
+  color: white;
+}
+.header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-inner h1 {
+  margin: 0;
+  font-size: 24px;
+}
+nav {
+  display: flex;
+  gap: 8px;
+}
+nav button {
+  border: 0;
+  background: transparent;
+  color: white;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 15px;
+}
+nav button:hover {
+  background-color: #444;
+}
