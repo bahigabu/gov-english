@@ -49,6 +49,7 @@
   {
     "id": "article_83gsat01",
     "title": "83年學測第一篇",
+    "source": "gsat",
     "content": "Most heroes are people like you.\n\nBut what makes them heroes?\n\nThey find special courage when they need it.\n\nThey are brave enough to help in an emergency while others may stand by.\n\nA hero sees what needs to be done and does it.\n\nSometimes heroes are rewarded for their brave acts.\n\nOne such reward is the Carnegie Medal.\n\nIt is given to people who act bravely and face danger to save the lives of others.\n\nThe medal was named after Andrew Carnegie.\n\nIn 1886, Carnegie heard about a young man by the name of William Hunter who lost his life trying to save two other boys from drowning.\n\nCarnegie became a very rich businessman and set aside money to honor heroes like William.\n\nSometimes these heroes are in need or are hurt.\n\nIf so, they receive money as well as the Carnegie Medal.\n\nOver 6,000 people have received the Carnegie Medal.\n\nSome have saved people from drowning or from burning buildings.\n\nOthers have pulled people in front of moving trains or saved them from attacks by wild animals.\n\nAll these heroes have one thing in common, however.\n\nThey put someone else's safety ahead of their own.",
     "questions": [
       {
@@ -83,6 +84,69 @@
           "Some heroes have received money as well as the Medal."
         ],
         "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "article_114post-indoor",
+    "title": "114年郵局內勤",
+    "source": "post-indoor",
+    "content": "Have you ever tossed a flying disc with friends on a sunny day?\n\nThis simple yet exciting activity has a surprising origin—a cake tin.\n\nOne day Walter Morrison and his wife were tossing around a cake tin on a beach in Los Angeles when someone offered to buy it from them.\n\nThis gave them the idea to start selling cake tins as toys, dubbed Flying Cake Pan, on beaches.\n\nMorrison tried to improve the design and sketched a new version called Whirlo-Way in 1946. \n\nSoon, he got financed and eventually realized his breakthrough idea: molding the Whirlo-Way out of lightweight plastic, enabling the disc to fly further and more accurately.\n\nHis invention quickly **caught** **on**, and soon afterwards millions of Americans were tossing flying discs around outdoors.\n\n Morrison later sold the rights to the toy manufacturer Wham-O.\n\nAfter noticing that college students were throwing around pie tins from the Frisbie Pie Company, Wham-O decided to name the disc “Frisbee.”\n\nAs the Frisbee gained fans, people started inventing new sports for it.\n\n Two exciting games that emerged are Ultimate (Frisbee) and Disc golf.\n\nUltimate (Frisbee) is a team sport that combines elements of football, basketball, and soccer.\n\n Two teams of seven players each try to score points by moving the disc down a field and catching it in their opponent’s end zone.\n\nPlayers can’t run with the disc, so they must throw it to teammates to advance.\n\n This fast-paced game requires skill, strategy, and fitness.\n\nDisc golf, on the other hand, is similar to regular golf but uses flying discs instead of balls and clubs.\n\n Players throw their discs from a teeing area, aiming for a metal basket that serves as the hole.\n\nPlayers use various throwing styles, depending on their distance from the hole.\n\n The objective of disc golf is the same as golf: to complete the course in as few throws as possible.\n\nFrom the thrill of competition to the joy of a casual throw, flying discs have a unique way of evoking a sense of fun that keeps us reaching into the sky over and over again.",
+    "questions": [
+      {
+        "id": "question_114post-indoor_01",
+        "question": "Which of the following is NOT need refer to a flying disc?",
+        "options": [
+          "Frisbee.",
+          "Wham-O.",
+          "Whirlo-Way.",
+          "Flying Cake Pan."
+        ],
+        "answer": 2
+      },
+      {
+        "id": "114post-indoor_02",
+        "question": "What does the author mean by “caught on” in the second paragraph?",
+        "options": [
+          "The invention was understood.",
+          "The invention became popular. ",
+          "The invention was found and stopped.",
+          "The invention was held tightly in a hand."
+        ],
+        "answer": 2
+      },
+      {
+        "id": "114post-indoor_03",
+        "question": "According to the passage, what can we infer about the game of Ultimate?",
+        "options": [
+          "It requires a high physical fitness level.",
+          "It was first designed by Walter Morrison and his wife.",
+          "It is a game involving two teams of 10 players in total.",
+          "The aim is to fly a disc frisbee into a basket at end zone."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "114post-indoor_04",
+        "question": "Which of the following tells the main difference between ball golf and Disc golf ?",
+        "options": [
+          "What equipment is required.",
+          "Where players start their games.",
+          "How to decide who wins a game.",
+          "Whether the distance from the hole matters."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "114post-indoor_05",
+        "question": "Which of the following is true about the origin of the Frisbee?",
+        "options": [
+          "It’s history dates back to ancient Greece.",
+          "It began with a fun toss of a pizza box between friends.",
+          "It started as a casual game but ended up as a business idea.",
+          "It was invented by college students throwing around a pie tin."
+        ],
+        "answer": 3
       }
     ]
   }

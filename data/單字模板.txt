@@ -1,0 +1,29 @@
+{
+  "id": "word_",
+  "word": "",
+  "forms": {
+    "base": "",
+    "third_person": "",
+    "past": "",
+    "past_participle": "",
+    "present_participle": ""
+  },
+  "category": "junior",
+  "similarMeaning": [],
+  "similarSpelling": []
+}
+
+{
+  "id": "word_",
+  "word": "",
+  "forms": {
+    "base": "",
+    "comparative": "",
+    "superlative": "",
+    "adverb":"",
+    "noun":""
+  },
+  "category": "junior",
+  "similarMeaning": [],
+  "similarSpelling": []
+}

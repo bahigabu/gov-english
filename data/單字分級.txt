@@ -1,0 +1,7 @@
+junior
+
+high-basic
+
+high-advanced
+
+adult

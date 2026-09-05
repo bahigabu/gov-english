@@ -23,9 +23,13 @@ async function init() {
 
     renderVocabulary();
 
+    setupVocabularyFilters();
+
     renderArticles();
 
     setupNavigation();
+
+    setupLocalStorageBackup();
   } catch (error) {
     console.error("網站資料載入失敗：", error);
   }

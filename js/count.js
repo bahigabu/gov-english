@@ -46,16 +46,6 @@ function extractWords(text) {
 // ========================================
 // 文章出現單字百分比
 // ========================================
-const articleCount =
-  (wordArticleIndex[wordData.id] || []).length;
-
-const totalArticles = articles.length;
-
-const percentage =
-  totalArticles === 0
-    ? 0
-    : Math.round((articleCount / totalArticles) * 100);
-
 function getWordColor(percentage) {
   if (percentage <= 0) {
     return "transparent";

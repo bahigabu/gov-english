@@ -62,7 +62,9 @@
   {
     "id": "word_else",
     "word": "else",
-    "forms": {},
+    "forms": {
+      "base": "else"
+    },
     "category": "junior",
     "similarMeaning": [],
     "similarSpelling": []
@@ -71,6 +73,7 @@
     "id": "word_be",
     "word": "be",
     "forms": {
+      "base": "be",
       "present_1st_person": "am",
       "present_3rd_person": "is",
       "present_plural": "are",
@@ -78,6 +81,174 @@
       "past_plural": "were",
       "past_participle": "been",
       "present_participle": "being"
+    },
+    "category": "junior",
+    "similarMeaning": [],
+    "similarSpelling": []
+  },
+  {
+    "id": "word_see",
+    "word": "see",
+    "forms": {
+      "base": "see",
+      "third_person": "sees",
+      "past": "saw",
+      "past_participle": "seen",
+      "present_participle": "seeing"
+    },
+    "category": "junior",
+    "similarMeaning": [],
+    "similarSpelling": []
+  },
+  {
+    "id": "word_receive",
+    "word": "receive",
+    "forms": {
+      "base": "receive",
+      "third_person": "receives",
+      "past": "received",
+      "past_participle": "received",
+      "present_participle": "receiving"
+    },
+    "category": "high-basic",
+    "similarMeaning": [],
+    "similarSpelling": []
+  },
+  {
+    "id": "word_find",
+    "word": "find",
+    "forms": {
+      "base": "find",
+      "third_person": "finds",
+      "past": "found",
+      "past_participle": "found",
+      "present_participle": "finding"
+    },
+    "category": "junior",
+    "similarMeaning": [],
+    "similarSpelling": []
+  },
+  {
+    "id": "word_need",
+    "word": "need",
+    "forms": {
+      "base": "need",
+      "third_person": "needs",
+      "past": "needed",
+      "past_participle": "needed",
+      "present_participle": "needing"
+    },
+    "category": "junior",
+    "similarMeaning": [],
+    "similarSpelling": []
+  },
+  {
+    "id": "word_give",
+    "word": "give",
+    "forms": {
+      "base": "give",
+      "third_person": "gives",
+      "past": "gave",
+      "past_participle": "given",
+      "present_participle": "giving"
+    },
+    "category": "junior",
+    "similarMeaning": [],
+    "similarSpelling": []
+  },
+  {
+    "id": "word_common",
+    "word": "common",
+    "forms": {
+      "base": "common",
+      "comparative": "more common",
+      "superlative": "most common",
+      "adverb": "",
+      "noun": ""
+    },
+    "category": "high-basic",
+    "similarMeaning": [],
+    "similarSpelling": []
+  },
+  {
+    "id": "word_brave",
+    "word": "brave",
+    "forms": {
+      "base": "brave",
+      "comparative": "braver",
+      "superlative": "bravest",
+      "adverb": "bravely",
+      "noun": "bravery"
+    },
+    "category": "junior",
+    "similarMeaning": [],
+    "similarSpelling": []
+  },
+  {
+    "id": "word_money",
+    "word": "money",
+    "forms": {
+      "base": "money"
+    },
+    "category": "junior",
+    "similarMeaning": [],
+    "similarSpelling": []
+  },
+  {
+    "id": "word_toss",
+    "word": "toss",
+    "forms": {
+      "base": "toss",
+      "third_person": "tosses",
+      "past": "tossed",
+      "past_participle": "tossed",
+      "present_participle": "tossing"
+    },
+    "category": "high-basic",
+    "similarMeaning": [],
+    "similarSpelling": []
+  },
+  {
+    "id": "word_game",
+    "word": "game",
+    "forms": {
+      "base": "game",
+      "third_person": "games"
+    },
+    "category": "junior",
+    "similarMeaning": [],
+    "similarSpelling": []
+  },
+  {
+    "id": "word_toy",
+    "word": "toy",
+    "forms": {
+      "base": "toy",
+      "third_person": "toys"
+    },
+    "category": "junior",
+    "similarMeaning": [],
+    "similarSpelling": []
+  },
+  {
+    "id": "word_fly",
+    "word": "fly",
+    "forms": {
+      "base": "fly",
+      "third_person": "flies",
+      "past": "flew",
+      "past_participle": "flown",
+      "present_participle": "flying"
+    },
+    "category": "junior",
+    "similarMeaning": [],
+    "similarSpelling": []
+  },
+  {
+    "id": "word_to",
+    "word": "to",
+    "forms": {
+      "base": "to"
     },
     "category": "junior",
     "similarMeaning": [],

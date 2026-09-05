@@ -14,3 +14,37 @@
   cursor: pointer;
   font-size: 16px;
 }
+/* =========================
+  單字庫篩選器
+  ========================= */
+.vocabulary-filter-group {
+  margin-bottom: 20px;
+}
+.vocabulary-filter-title {
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.vocabulary-filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.vocabulary-filter-button {
+  padding: 9px 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: white;
+  color: #222;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+.vocabulary-filter-button:hover {
+  background-color: #f0f0f0;
+}
+.vocabulary-filter-button.active {
+  background-color: #222;
+  color: white;
+  border-color: #222;
+}

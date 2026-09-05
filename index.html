@@ -35,6 +35,19 @@
         <h2>英文學習網站</h2>
 
         <p>單字庫與文章庫</p>
+
+        <div class="storage-actions">
+          <button id="download-local-storage">下載 Local Storage 資料</button>
+
+          <button id="upload-local-storage">上傳 Local Storage 資料</button>
+
+          <input
+            type="file"
+            id="local-storage-file"
+            accept=".json,application/json"
+            hidden
+          />
+        </div>
       </section>
 
       <!-- ==================== -->
@@ -42,11 +55,124 @@
       <!-- ==================== -->
 
       <section id="page-vocabulary" class="page" hidden>
-        <h2>單字庫</h2>
+        <h2>
+          單字庫（共收錄
+          <span id="vocabulary-count">0</span>
+          個單字）
+        </h2>
 
+        <!-- 第一層：全部 / 收藏 -->
+        <div class="vocabulary-filter-group">
+          <div class="vocabulary-filter-title">顯示範圍</div>
+
+          <div class="vocabulary-filter-buttons">
+            <button
+              class="vocabulary-filter-button active"
+              data-filter-group="favorite"
+              data-filter-value="all"
+            >
+              全部單字
+            </button>
+
+            <button
+              class="vocabulary-filter-button"
+              data-filter-group="favorite"
+              data-filter-value="favorite"
+            >
+              收藏單字
+            </button>
+          </div>
+        </div>
+
+        <!-- 第二層：單字分類 -->
+        <div class="vocabulary-filter-group">
+          <div class="vocabulary-filter-title">單字分類</div>
+
+          <div class="vocabulary-filter-buttons">
+            <button
+              class="vocabulary-filter-button active"
+              data-filter-group="category"
+              data-filter-value="all"
+            >
+              全部分類
+            </button>
+
+            <button
+              class="vocabulary-filter-button"
+              data-filter-group="category"
+              data-filter-value="junior"
+            >
+              國中單字
+            </button>
+
+            <button
+              class="vocabulary-filter-button"
+              data-filter-group="category"
+              data-filter-value="high-basic"
+            >
+              高中基礎單字
+            </button>
+
+            <button
+              class="vocabulary-filter-button"
+              data-filter-group="category"
+              data-filter-value="high-advanced"
+            >
+              高中進階單字
+            </button>
+
+            <button
+              class="vocabulary-filter-button"
+              data-filter-group="category"
+              data-filter-value="adult"
+            >
+              社會人士單字
+            </button>
+          </div>
+        </div>
+
+        <!-- 第三層：學習狀態 -->
+        <div class="vocabulary-filter-group">
+          <div class="vocabulary-filter-title">學習狀態</div>
+
+          <div class="vocabulary-filter-buttons">
+            <button
+              class="vocabulary-filter-button active"
+              data-filter-group="status"
+              data-filter-value="all"
+            >
+              全部狀態
+            </button>
+
+            <button
+              class="vocabulary-filter-button"
+              data-filter-group="status"
+              data-filter-value="unlearned"
+            >
+              未學習
+            </button>
+
+            <button
+              class="vocabulary-filter-button"
+              data-filter-group="status"
+              data-filter-value="learning"
+            >
+              模糊中
+            </button>
+
+            <button
+              class="vocabulary-filter-button"
+              data-filter-group="status"
+              data-filter-value="mastered"
+            >
+              已精熟
+            </button>
+          </div>
+        </div>
+
+        <!-- 單字列表 -->
         <div id="vocabulary-list"></div>
       </section>
-
       <!-- ==================== -->
       <!-- 單字詳細內容 -->
       <!-- ==================== -->
@@ -86,6 +212,7 @@
     <script src="./js/articles.js" defer></script>
     <script src="./js/article.js" defer></script>
     <script src="./js/localStorage.js" defer></script>
+    <script src="./js/downloadLocalStorage.js" defer></script>
     <script src="./js/main.js" defer></script>
   </body>
 </html>

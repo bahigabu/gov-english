@@ -88,14 +88,31 @@ function renderArticleContent(article) {
 
   return paragraphs
     .map((paragraph, index) => {
-      const tokens = paragraph.split(/([A-Za-z]+(?:['’-][A-Za-z]+)*)/);
+      const tokens = paragraph.split(
+        /(\*\*[A-Za-z]+(?:['’-][A-Za-z]+)*\*\*|[A-Za-z]+(?:['’-][A-Za-z]+)*)/
+      );
 
       const content = tokens
         .map((token) => {
-          const wordId = wordIndex[normalizeArticleWord(token)];
+
+          // 判斷是不是 **單字**
+          const isBold =
+            /^\*\*[A-Za-z]+(?:['’-][A-Za-z]+)*\*\*$/.test(token);
+
+          // 如果是 **單字**，去掉前後的 **
+          const word = isBold
+            ? token.slice(2, -2)
+            : token;
+
+          const wordId =
+            wordIndex[normalizeArticleWord(word)];
 
           // 不是單字庫裡的單字
           if (!wordId) {
+            if (isBold) {
+              return `<strong>${escapeHtml(word)}</strong>`;
+            }
+
             return escapeHtml(token);
           }
 
@@ -105,11 +122,11 @@ function renderArticleContent(article) {
 
           return `
             <span
-              class="article-word word-${category}"
+              class="article-word word-${category}${isBold ? " article-word-bold" : ""}"
               data-word-id="${wordId}"
               title="${escapeHtml(wordData.word)}"
             >
-              ${escapeHtml(token)}
+              ${escapeHtml(word)}
             </span>
           `;
         })

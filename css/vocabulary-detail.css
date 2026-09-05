@@ -1,0 +1,27 @@
+#toggle-word-favorite {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.word-status-buttons {
+  display: flex;
+  gap: 10px;
+  margin: 15px 0;
+}
+.word-status-button {
+  padding: 10px 18px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+.word-status-button:hover {
+  background-color: #f5f5f5;
+}
+.word-status-button.active {
+  background-color: #222;
+  color: white;
+}

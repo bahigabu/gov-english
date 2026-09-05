@@ -1,0 +1,41 @@
+{
+  "id": "article_",
+  "title": "",
+  "source":"",
+  "content": "",
+  "questions": [
+    {
+      "id": "question_",
+      "question": "",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "answer":
+    },
+    {
+      "id": "",
+      "question": "",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "answer": 
+    },
+    {
+      "id": "",
+      "question": "",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "answer": 
+    }
+  ]
+}

@@ -52,3 +52,12 @@ function getCategoryName(category) {
   return names[category] || "未知分類";
 }
 
+// ========================================
+// 三層篩選器
+// ========================================
+
+let vocabularyFilters = {
+  favorite: "all",
+  category: "all",
+  status: "all",
+};
